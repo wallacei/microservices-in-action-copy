@@ -16,8 +16,7 @@ useradd -m -d /home/app app
 
 # Pull our source code
 export HOME=/root
-git config --global credential.helper gcloud.sh
-git clone https://github.com/morganjbruce/microservices-in-action.git /opt/app
+git clone https://github.com/wallacei/microservices-in-action-copy.git /opt/app
 
 # change to the app working directory
 cd /opt/app/chapter-8/market-data
